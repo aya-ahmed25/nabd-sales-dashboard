@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Nabd – Sales dashboard</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <nav>
+            <a class="logo" href="#top" aria-label="Nabd home"><i><svg viewBox="0 0 24 24" fill="none" stroke="#fff"
+                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 13h5l3-8 4 15 3-7h5" />
+                    </svg></i>Nabd</a>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#start">Pricing</a></li>
+                <li><a href="#start">Contact</a></li>
+            </ul>
+            <a class="btn" href="#start">Start free trial</a>
+        </nav>
+
+        <header class="hero" id="top">
+            <h1>Know what’s selling, the moment it sells.</h1>
+            <p>Nabd turns your orders into one clear dashboard: revenue, best sellers, and customers, updated live.</p>
+            <div class="cta"><a class="btn" href="#start">Start free trial</a><a class="btn ghost" href="#features">See
+                    what’s inside</a></div>
+
+            <div class="dash" role="img"
+                aria-label="Preview of the Nabd sales dashboard showing revenue, orders, average order value, a revenue chart and top products">
+                <div class="side"><b>Nabd</b><i class="side-indicator" aria-hidden="true"></i><span class="on"
+                        tabindex="0">Overview</span><span tabindex="0">Orders</span><span
+                        tabindex="0">Products</span><span tabindex="0">Customers</span><span tabindex="0">Reports</span>
+                </div>
+                <div class="main">
+                    <div class="kpis">
+                        <div class="kpi"><small>Revenue</small><strong>$48,210</strong><em>+12.4% this month</em></div>
+                        <div class="kpi"><small>Orders</small><strong>1,284</strong><em>+8.1%</em></div>
+                        <div class="kpi"><small>Avg. order</small><strong>$37.55</strong><em>+3.9%</em></div>
+                    </div>
+                    <div class="panels">
+                        <div class="chart">
+                            <h4>Revenue, last 12 weeks</h4>
+                            <svg viewBox="0 0 400 150" preserveAspectRatio="none">
+                                <defs>
+                                    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0" stop-color="#1f5bff" stop-opacity=".22" />
+                                        <stop offset="1" stop-color="#1f5bff" stop-opacity="0" />
+                                    </linearGradient>
+                                </defs>
+                                <g stroke="#e3e8f4">
+                                    <path d="M0 30H400M0 75H400M0 120H400" />
+                                </g>
+                                <path
+                                    d="M0 118 L36 104 L72 110 L109 82 L145 90 L181 64 L218 72 L254 46 L290 58 L327 30 L363 38 L400 14 V150 H0Z"
+                                    fill="url(#g)" />
+                                <path class="line"
+                                    d="M0 118 L36 104 L72 110 L109 82 L145 90 L181 64 L218 72 L254 46 L290 58 L327 30 L363 38 L400 14"
+                                    fill="none" stroke="#1f5bff" stroke-width="3" stroke-linejoin="round"
+                                    stroke-linecap="round" vector-effect="non-scaling-stroke" />
+                            </svg>
+                        </div>
+                        <div class="top">
+                            <h4>Top products</h4>
+                            <div class="row">
+                                <div><span>Classic bundle</span><span>38%</span></div>
+                                <div class="bar"><i style="width:100%"></i></div>
+                            </div>
+                            <div class="row">
+                                <div><span>Starter kit</span><span>27%</span></div>
+                                <div class="bar"><i style="width:71%"></i></div>
+                            </div>
+                            <div class="row">
+                                <div><span>Gift box</span><span>19%</span></div>
+                                <div class="bar"><i style="width:50%"></i></div>
+                            </div>
+                            <div class="row">
+                                <div><span>Refill pack</span><span>11%</span></div>
+                                <div class="bar"><i style="width:29%"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="features">
+            <h2>Everything about your sales, in one place.</h2>
+            <p class="lead">No spreadsheets to merge. Connect your store once and Nabd keeps the numbers current.</p>
+            <div class="feat">
+                <div class="f">
+                    <div class="ic"><svg viewBox="0 0 24 24">
+                            <path d="M3 17l5-5 4 4 8-9" />
+                            <path d="M15 7h5v5" />
+                        </svg></div>
+                    <h3>Live revenue</h3>
+                    <p>Watch sales come in by the hour, day or week, and compare any period with the one before it.</p>
+                </div>
+                <div class="f">
+                    <div class="ic"><svg viewBox="0 0 24 24">
+                            <path d="M4 7l8-4 8 4-8 4-8-4z" />
+                            <path d="M4 12l8 4 8-4M4 17l8 4 8-4" />
+                        </svg></div>
+                    <h3>Best sellers</h3>
+                    <p>See which products drive your income and which ones are slowing down, so you restock the right
+                        items.</p>
+                </div>
+                <div class="f">
+                    <div class="ic"><svg viewBox="0 0 24 24">
+                            <circle cx="9" cy="8" r="3.5" />
+                            <path d="M2.5 20c.5-4 3.2-6 6.5-6s6 2 6.5 6" />
+                            <path d="M16 4.5a3.5 3.5 0 010 7M18 14.2c2 .6 3.3 2.5 3.5 5.8" />
+                        </svg></div>
+                    <h3>Customer insights</h3>
+                    <p>Find your repeat buyers, see how much each one spends, and spot who hasn’t ordered in a while.
+                    </p>
+                </div>
+                <div class="f">
+                    <div class="ic"><svg viewBox="0 0 24 24">
+                            <path d="M6 3h9l4 4v14H6z" />
+                            <path d="M14 3v5h5M9 13h7M9 17h7" />
+                        </svg></div>
+                    <h3>Reports in one click</h3>
+                    <p>Export a clean weekly or monthly report as PDF or CSV and share it with your team or accountant.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="start">
+            <div class="band">
+                <div>
+                    <h2>See your sales clearly this week.</h2>
+                    <p class="note" style="margin:0">Free for 14 days. No card needed.</p>
+                </div>
+                <div>
+                    <p>Create your account, connect your store, and your dashboard fills itself in minutes.</p><a
+                        class="btn" href="#top">Start free trial</a>
+                </div>
+            </div>
+        </section>
+
+        <footer><span>© 2026 Nabd. A fictional product for a portfolio
+                project.</span><span>nabd-sales-dashboard@gmail.com</span>
+            <span class="creator">@2026-Created by <a href="mailto:ayia2a7med@gmail.com" target="_blank">AYA AHMED</a></span>
+        </footer>
+    </div>
+    <script>
+        const side = document.querySelector(".side");
+        const sideItems = side ? [...side.querySelectorAll("span")] : [];
+        const indicator = side ? side.querySelector(".side-indicator") : null;
+        let selectedItem = sideItems.find(item => item.classList.contains("on")) || sideItems[0];
+
+        function moveIndicator(item) {
+            if (!indicator || !item) return;
+            indicator.style.top = `${item.offsetTop + 3}px`;
+            sideItems.forEach(sideItem => {
+                sideItem.classList.toggle("active", sideItem === item);
+                sideItem.classList.toggle("on", sideItem === item);
+            });
+        }
+
+        if (indicator && sideItems.length) {
+            moveIndicator(selectedItem);
+
+            sideItems.forEach(item => {
+                item.addEventListener("mouseenter", () => moveIndicator(item));
+                item.addEventListener("mouseleave", () => moveIndicator(selectedItem));
+                item.addEventListener("focus", () => moveIndicator(item));
+                item.addEventListener("blur", () => moveIndicator(selectedItem));
+                item.addEventListener("click", () => {
+                    selectedItem = item;
+                    sideItems.forEach(sideItem => {
+                        sideItem.classList.toggle("on", sideItem === item);
+                    });
+                    moveIndicator(item);
+                });
+            });
+
+            window.addEventListener("resize", () => moveIndicator(selectedItem));
+        }
+    </script>
+</body>
+
+</html>
